@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-align:center;
+    padding-top:200px;
+    font-family: 'Cinzel', serif;
+    background-image: url("PJ-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 64px;
+    line-height:86px;
+}
+
+h1 span {
+    color: #db2777;
+
+}
+
+p {
+    line-height: 24px;
+    font-size:20px;
+    color: rgba(44, 46, 47, 0.9);
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    padding:16px 32px;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    line-height: 200px;
+    border-radius: 80px;
+    font-size:20px;
+
+    
+    
+}
+
+.btn-c {
+    background-color: #db2777;
+    color: white;
+    border-radius:80px;
+    opacity: 0.8;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-c:hover {
+    background-color: #db2777;
+    opacity: 1;
+    text-decoration: none;
+}
